@@ -27,24 +27,32 @@
 
 number_1 = 10
 number_2 = 20
-print(type(number_1)) # <class 'int'>
+print(type(number_1)) # Output: <class 'int'>
 
 
 # Floating point numbers
 fp_1 = 10.0
 fp_2 = 12.11
-print(type(fp_1)) # <class 'float'>
+print(type(fp_1)) # Output: <class 'float'>
 
 
 # Adding a integer and floating point numbers will result in floating point number
-print(number_1 + fp_1) # 20.0
+print(number_1 + fp_1) # Output: 20.0
 
 
 """
-Tip: Type casting: It is the process of converting one datatype to another datatype. For example, coverting floating type
-into integer datatype. It is done in Python as below:
+    Tip: Type casting: It is the process of converting one datatype to another datatype. For example, coverting floating type
+    into integer datatype. It is done in Python as below:
 """
-result = number_1 + fp_1 # 20.0
+result = number_1 + fp_1 # Output: 20.0
 result = int(result)
-print(result) # 20
-print(type(result)) # <class 'int'>
+print(result) # Output: 20
+print(type(result)) # Output: <class 'int'>
+ 
+ 
+"""
+    Tip: Dividing two integers using normal division operator '/' will result in float type. If we want integer result, we 
+    should perform floor division '//'
+"""
+print(10/2) # Output: 5.0
+print(10//2) # Output: 5
