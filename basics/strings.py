@@ -39,7 +39,12 @@ print(word[:5]) # Output: My na
 # step as 2, then the first index of the substring is 0 then 2 is added to start and the next index will be 2, then again 2 is added
 # so the next index will be 4 and then 2 is added again to it which means the next index is 6. Since the the stop index is 5 which is
 # less than 6 hence it will not be printed
-print(word[:8:2]) # Output: M ae
+print(word[:8:2]) # Output: M ae 
+
+# Inorder to reverse the direction of string, just give step as -1.
+print(word[::-1]) # Output: ahihcu ihcati si eman yM
+# The above output is nothing but reversed form og the given string which can be used to compute palindrome
+
 
 """
     String methods: The following are some of the import string methods
