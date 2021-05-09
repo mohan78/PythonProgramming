@@ -2,8 +2,6 @@
 
 ## This repository consists of various Python scripts that help you recollect Python programming concepts.
 
----
-
 These Python scripts are arranged in the following manner:
 
 #### Basics
