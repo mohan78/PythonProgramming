@@ -9,6 +9,7 @@
     int - Integers
     float - Floating point numbers
     str - Strings
+    boolean - True or False
     complex - Complex numbers
     list - Index based arrays
     tuple - Index based arrays
@@ -56,3 +57,8 @@ print(type(result)) # Output: <class 'int'>
 """
 print(10/2) # Output: 5.0
 print(10//2) # Output: 5
+
+# Boolean datatype
+# There are two types of values for Boolean datatype i.e True or False
+x = True
+print(x) # Output: True
