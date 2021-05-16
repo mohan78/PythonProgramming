@@ -29,4 +29,10 @@ This folder consists of Object Oriented concepts in Python like class definitons
 
 ---
 
+In the program scripts you may have noticed '#!/usr/bin/python3' line on line number 1. It is
+called 'shebang line'. It tells about the path to the executor with which the script needs to
+be executed. A shebang line startswith '#!' followed by the path to the executor program. In
+the above case it is '/usr/bin/python3'. python3 is the executor program residing in /usr/bin
+folder in ubuntu 20.
+
 In case of any queries and suggestions, please mail me at mohanroger63@gmail.com

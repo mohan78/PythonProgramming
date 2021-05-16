@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 """
     String in python are represented by the keyword 'str'. Strings in python can be treated as an array of characters.
