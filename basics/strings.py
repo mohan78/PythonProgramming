@@ -22,7 +22,7 @@ print(word_1.join(word_2)) # Output: appleapple
 
 
 """
-    String splicing: Splicing is technique where you can extract sub-string from a string using indexes.
+    String slicing: Slicing is technique where you can extract sub-string from a string using indexes.
     syntax: str[start: stop: step]
     start is the starting index. Default value of start is 0
     stop is the index upto which the string should be extracted. Default value of stop is one value less of length of string
