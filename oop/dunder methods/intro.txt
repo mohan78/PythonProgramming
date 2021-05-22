@@ -1,0 +1,8 @@
+Dunder methods:
+
+Magic methods or dunder methods are specials method that belong to a class which
+start and end with double underscores. These methods are invoked when we perform
+certain operations on objects of a class automatically. Some of the important 
+magic methods are:
+
+__init__, __new__, __str__, __call__, __add__, __mul__, __sub__, __len__
